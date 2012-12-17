@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+    <LinearLayout
+        android:id="@+id/autotext1"
+   	 	android:focusable="true" 
+   	 	android:focusableInTouchMode="true"
+    	android:layout_width="0px" 
+    	android:layout_height="0px"/>
+    
+    <TextView
+        android:id="@+id/intro_add_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/select_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/select_unit" />
+
+    <Button
+        android:id="@+id/select_riferimento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/insert_name" />
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:enabled="false"
+        android:inputType="text"
+        android:nextFocusLeft="@+id/autotext1"
+        android:nextFocusUp="@+id/autotext1" >
+
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/insert_symbol" />
+    
+    <EditText
+        android:id="@+id/add_symbol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:enabled="false"
+        android:inputType="text"
+        android:maxLength="5"
+        android:nextFocusLeft="@+id/autotext1"
+        android:nextFocusUp="@+id/autotext1" >
+
+    </EditText>
+    
+    
+    <TextView
+        android:id="@+id/formula_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_spiegazioni" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+    
+        <EditText 
+            android:id="@+id/formula_from"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:enabled="false"
+            android:hint="@string/insert_value"
+            android:inputType="text"
+            android:nextFocusLeft="@+id/autotext1"
+            android:nextFocusUp="@+id/autotext1" />
+        
+        <EditText 
+            android:id="@+id/formula_to"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:enabled="false"
+            android:hint="@string/insert_value"
+            android:inputType="text"
+            android:nextFocusLeft="@+id/autotext1"
+            android:nextFocusUp="@+id/autotext1" />
+           
+    </LinearLayout>
+    
+    	<Button
+    	    android:id="@+id/button_test_to"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="fill_parent"
+    	    android:layout_gravity="center_vertical"
+    	    android:layout_marginRight="5dp"
+    	    android:layout_weight="0.1"
+    	    android:enabled="false"
+    	    android:text="@string/test" />
+    
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:enabled="false"
+        android:text="@string/salva" />
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Volume -->
+<gruppo id="1" versione="1.0">
+  <unita>
+    <nome_it>acro (U.S.)</nome_it>
+    <nome_eng>acre-foot (U.S.)</nome_eng>
+    <simbolo>acre-foot</simbolo>
+    <base>false</base>
+    <to>x / 1.233489 * 10^(-3)</to>
+    <from>x * 1.233489 * 10^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>barile (per petrolio)</nome_it>
+    <nome_eng>barrel (for petroleum)</nome_eng>
+    <simbolo>bbl</simbolo>
+    <base>false</base>
+    <to>x / 1.589873 * 10</to>
+    <from>x * 1.589873 * 10^(-1)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>staio (U.S.)</nome_it>
+    <nome_eng>bushel (U.S.)</nome_eng>
+    <simbolo>bu</simbolo>
+    <base>false</base>
+    <to>x / 3.523907 *10^2</to>
+    <from>x * 3.523907 * 10^(-2)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>piede cubico</nome_it>
+    <nome_eng>cubic foot</nome_eng>
+    <simbolo>ft3</simbolo>
+    <base>false</base>
+    <to>x / 2.831685 * 10^2</to>
+    <from>x * 2.831685 * 10^(-2)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pollice cubico</nome_it>
+    <nome_eng>cubic inch</nome_eng>
+    <simbolo>in3</simbolo>
+    <base>false</base>
+    <to>x / 1.638706 * 10^5</to>
+    <from>x * 1.638706 * 10^(-5)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio cubico</nome_it>
+    <nome_eng>cubic mile</nome_eng>
+    <simbolo>mi3</simbolo>
+    <base>false</base>
+    <to>x / 4.168182 * 10^(-9)</to>
+    <from>x * 4.168182 * 10^9</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>iarda cubica</nome_it>
+    <nome_eng>cubic yard</nome_eng>
+    <simbolo>yd3</simbolo>
+    <base>true</base>
+    <to>x / 7.645549 * 10</to>
+    <from>x * 7.645549 * 10^(-1)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>tazza (U.S.)</nome_it>
+    <nome_eng>cup (U.S.)</nome_eng>
+    <simbolo>cup</simbolo>
+    <base>false</base>
+    <to>x / 2.365882 * 10^4</to>
+    <from>x * 2.365882 * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>oncia fluida (U.S.)</nome_it>
+    <nome_eng>fluid ounce (U.S.)</nome_eng>
+    <simbolo>fl oz</simbolo>
+    <base>false</base>
+    <to>x / 2.957353 * 10^5</to>
+    <from>x * 2.957353 * 10^(-5)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>gallone (Imperiale)</nome_it>
+    <nome_eng>gallon (Imperial)</nome_eng>
+    <simbolo>gal</simbolo>
+    <base>false</base>
+    <to>x / 4.54609 * 10^3</to>
+    <from>x * 4.54609 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>gallone (U.S.)</nome_it>
+    <nome_eng>gallon (U.S.)</nome_eng>
+    <simbolo>gal</simbolo>
+    <base>false</base>
+    <to>x / 3.785412 * 10^3</to>
+    <from>x * 3.785412 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>oncia (Imperiale)</nome_it>
+    <nome_eng>ounce (Imperial)</nome_eng>
+    <simbolo>fl oz</simbolo>
+    <base>false</base>
+    <to>x / 2.841306 * 10^5</to>
+    <from>x * 2.841306 * 10^(-5)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>litro</nome_it>
+    <nome_eng>Liter</nome_eng>
+    <simbolo>l</simbolo>
+    <base>false</base>
+    <to>x * 10^3</to>
+    <from>x * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>metro cubo</nome_it>
+    <nome_eng>cubic meter</nome_eng>
+    <simbolo>m3</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pinta (U.S. secca)</nome_it>
+    <nome_eng>pint (U.S. dry)</nome_eng>
+    <simbolo>dry pt</simbolo>
+    <base>false</base>
+    <to>x / 5.506105 * 10^4</to>
+    <from>x * 5.506105 * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pinta (U.S. liquida)</nome_it>
+    <nome_eng>pint (U.S: liquid)</nome_eng>
+    <simbolo>liq pt</simbolo>
+    <base>false</base>
+    <to>x / 4.731765 * 10^4</to>
+    <from>x * 4.731765 * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>quarto (U.S. secco)</nome_it>
+    <nome_eng>quart (U.S. dry)</nome_eng>
+    <simbolo>dry qt</simbolo>
+    <base>false</base>
+    <to>x / 1.101221 * 10^3</to>
+    <from>x * 1.101221 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>quarto (U.S. liquido)</nome_it>
+    <nome_eng>quart (U.S. liquid)</nome_eng>
+    <simbolo>liq qt</simbolo>
+    <base>false</base>
+    <to>x / 9.463529 *10^4</to>
+    <from>x * 9.463529 * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

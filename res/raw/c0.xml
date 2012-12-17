@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Lunghezza -->
+<gruppo id="0" versione="1.0">
+  <unita>
+    <nome_it>anno luce</nome_it>
+    <nome_eng>light year</nome_eng>
+    <simbolo>ly</simbolo>
+    <base>false</base>
+    <to>x / 9.461 * 10^(-15)</to>
+    <from>x * 9.461 * 10^15</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>centimetro</nome_it>
+    <nome_eng>centimeter</nome_eng>
+    <simbolo>cm</simbolo>
+    <base>false</base>
+    <to>x * 10^2</to>
+    <from>x * 10^(-2)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>chilometro</nome_it>
+    <nome_eng>kilometer</nome_eng>
+    <simbolo>km</simbolo>
+    <base>false</base>
+    <to>x * 10^(-3)</to>
+    <from>x * 10^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>decametro</nome_it>
+    <nome_eng>decameter</nome_eng>
+    <simbolo>dam</simbolo>
+    <base>false</base>
+    <to>x * 10^(-1)</to>
+    <from>x * 10^1</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>decimetro</nome_it>
+    <nome_eng>decimeter</nome_eng>
+    <simbolo>dm</simbolo>
+    <base>false</base>
+    <to>x * 10^1</to>
+    <from>x * 10^(-1)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>ettometro</nome_it>
+    <nome_eng>hectometre</nome_eng>
+    <simbolo>hm</simbolo>
+    <base>false</base>
+    <to>x * 10^(-2)</to>
+    <from>x * 10^2</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>metro</nome_it>
+    <nome_eng>meter</nome_eng>
+    <simbolo>m</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>micron</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>μm</simbolo>
+    <base>false</base>
+    <to>x * 10^6</to>
+    <from>x * 10^(-6)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>punto</nome_it>
+    <nome_eng>point</nome_eng>
+    <simbolo>p</simbolo>
+    <base>false</base>
+    <to>x / 352.8 * 10^6</to>
+    <from>x * 352.8 * 10^(-6)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio</nome_it>
+    <nome_eng>mile</nome_eng>
+    <simbolo>mi</simbolo>
+    <base>false</base>
+    <to>x / 1.609344 * 10^(-3)</to>
+    <from>x * 1.609344 * 10^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>millimetro</nome_it>
+    <nome_eng>millimeter</nome_eng>
+    <simbolo>mm</simbolo>
+    <base>false</base>
+    <to>x * 10^3</to>
+    <from>x * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>nanometro</nome_it>
+    <nome_eng>nanometer</nome_eng>
+    <simbolo>nm</simbolo>
+    <base>false</base>
+    <to>x * 10^9</to>
+    <from>x * 10^(-9)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>parsec</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>pc</simbolo>
+    <base>false</base>
+    <to>x / 3.086 * 10^(-16)</to>
+    <from>x * 3.086 * 10^16</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>piede</nome_it>
+    <nome_eng>foot</nome_eng>
+    <simbolo>ft</simbolo>
+    <base>false</base>
+    <to>x / 0.3048</to>
+    <from>x * 0.3048</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pollice</nome_it>
+    <nome_eng>inch</nome_eng>
+    <simbolo>in</simbolo>
+    <base>false</base>
+    <to>x / 25.4001 * 10^3</to>
+    <from>x * 25.4001 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>link</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>li</simbolo>
+    <base>false</base>
+    <to>x / 2.012 * 10</to>
+    <from>x * 2.012 * 10^(-1)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>asta</nome_it>
+    <nome_eng>rod</nome_eng>
+    <simbolo>rd</simbolo>
+    <base>false</base>
+    <to>x / 5.02921</to>
+    <from>x * 5.02921</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>catena</nome_it>
+    <nome_eng>chain</nome_eng>
+    <simbolo>rd</simbolo>
+    <base>false</base>
+    <to>x / 20.1168</to>
+    <from>x * 20.1168</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>furlong</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>fur</simbolo>
+    <base>false</base>
+    <to>x / 201.168</to>
+    <from>x * 201.168</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>unità astronomica</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>UA</simbolo>
+    <base>false</base>
+    <to>x / 1.496 * 10^(-11)</to>
+    <from>x * 1.496 * 10^11</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>yarde</nome_it>
+    <nome_eng>yard</nome_eng>
+    <simbolo>yd</simbolo>
+    <base>false</base>
+    <to>x / 0.914402</to>
+    <from>x * 0.914402</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>ångström</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>Å</simbolo>
+    <base>false</base>
+    <to>x * 10^10</to>
+    <from>x * 10^(-10)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio marino italiano</nome_it>
+    <nome_eng>nautical mile (It)</nome_eng>
+    <simbolo>nmi</simbolo>
+    <base>false</base>
+    <to>x / 1851.6</to>
+    <from>x * 1851.6</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio nautico</nome_it>
+    <nome_eng>nautical mile</nome_eng>
+    <simbolo>nmi</simbolo>
+    <base>false</base>
+    <to>x / 1852</to>
+    <from>x * 1852</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio nautico inglese</nome_it>
+    <nome_eng>nautical mile (Eng)</nome_eng>
+    <simbolo>nmi</simbolo>
+    <base>false</base>
+    <to>x / 1853.18</to>
+    <from>x * 1853.18</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio nautico USA</nome_it>
+    <nome_eng>nautical mile (U.S.)</nome_eng>
+    <simbolo>nmi</simbolo>
+    <base>false</base>
+    <to>x / 1853.24</to>
+    <from>x * 1853.24</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

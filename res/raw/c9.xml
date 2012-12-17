@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Troque -->
+<gruppo id="9" versione="1.0">
+  <unita>
+    <nome_it>Newton-metro</nome_it>
+    <nome_eng>Newton-metre</nome_eng>
+    <simbolo>Nm</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>piede-libbra</nome_it>
+    <nome_eng>foot-pound</nome_eng>
+    <simbolo>ftlbf</simbolo>
+    <base>false</base>
+    <to>x * 1.3558179483314004</to>
+    <from>x / 1.3558179483314004</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>piede-poundal</nome_it>
+    <nome_eng>foot-poundal</nome_eng>
+    <simbolo>ftpdl</simbolo>
+    <base>false</base>
+    <to>x * 4.21401100938048 * 10^(-2)</to>
+    <from>x / 4.21401100938048 * 10^2</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pollici-libbra</nome_it>
+    <nome_eng>inch-pound</nome_eng>
+    <simbolo>inlbf</simbolo>
+    <base>false</base>
+    <to>x * 0.1129848290276167</to>
+    <from>x / 0.1129848290276167</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>metro-chilogrammo</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>mkg</simbolo>
+    <base>false</base>
+    <to>x * 0.101971621</to>
+    <from>x / 0.101971621</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

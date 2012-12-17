@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Memoria -->
+<gruppo id="5" versione="1.0">
+  <unita>
+    <nome_it>Bit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>b</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Byte</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>b</simbolo>
+    <base>false</base>
+    <to>x / 8</to>
+    <from>x * 8</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Kilobit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>Kb</simbolo>
+    <base>false</base>
+    <to>x / 1024</to>
+    <from>x * 1024</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Kilobyte</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>KB</simbolo>
+    <base>false</base>
+    <to>x / 1024</to>
+    <from>x * 1024 * 8</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Megabit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>Mb</simbolo>
+    <base>false</base>
+    <to>x / (1024^2)</to>
+    <from>x * (1024^2)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Megabyte</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>MB</simbolo>
+    <base>false</base>
+    <to> x / (8 * 1024^2)</to>
+    <from>x * 8 * 1024^2</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Gigabit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>Gb</simbolo>
+    <base>false</base>
+    <to>x / (1024^3)</to>
+    <from>x * 1024^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Gigabyte</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>GB</simbolo>
+    <base>false</base>
+    <to>x / (8 * 1024^3)</to>
+    <from>x * 8 * 1024^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Terabit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>Tb</simbolo>
+    <base>false</base>
+    <to>x / (1024^4)</to>
+    <from>x * 1024^4</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Terabyte</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>TB</simbolo>
+    <base>false</base>
+    <to>x / (8 * 1024^4)</to>
+    <from>x * 8 * 1024^4</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Petabit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>PB</simbolo>
+    <base>false</base>
+    <to>x / (1024^5)</to>
+    <from>x * 1024^5</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Petabyte</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>PB</simbolo>
+    <base>false</base>
+    <to>x / (8 * 1024^5)</to>
+    <from>x * 8 * 1024^5</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

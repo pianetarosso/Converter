@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Tempo -->
+<gruppo id="4" versione="1.0">
+  <unita>
+    <nome_it>secondo</nome_it>
+    <nome_eng>second</nome_eng>
+    <simbolo>s</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>giorno</nome_it>
+    <nome_eng>day</nome_eng>
+    <simbolo>d</simbolo>
+    <base>false</base>
+    <to>x / (24 * 3600)</to>
+    <from>x * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>femtosecondo</nome_it>
+    <nome_eng>femtosecond</nome_eng>
+    <simbolo>fs</simbolo>
+    <base>false</base>
+    <to>x * 10^15</to>
+    <from>x * 10^(-15)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>ora</nome_it>
+    <nome_eng>hour</nome_eng>
+    <simbolo>h</simbolo>
+    <base>false</base>
+    <to>x / 3600</to>
+    <from>x * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>picosecondo</nome_it>
+    <nome_eng>picosecond</nome_eng>
+    <simbolo>ps</simbolo>
+    <base>false</base>
+    <to>x * 10^12</to>
+    <from>x * 10^(-12)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>minuto</nome_it>
+    <nome_eng>minute</nome_eng>
+    <simbolo>min</simbolo>
+    <base>false</base>
+    <to> x / 60</to>
+    <from>x * 60</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>nanosecondo</nome_it>
+    <nome_eng>nanosecond</nome_eng>
+    <simbolo>ns</simbolo>
+    <base>false</base>
+    <to>x * 10^9</to>
+    <from>x * 10^(-9)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>microsecondo</nome_it>
+    <nome_eng>microsecond</nome_eng>
+    <simbolo>μs</simbolo>
+    <base>false</base>
+    <to>x * 10^6</to>
+    <from>x * 10^(-6)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>anno</nome_it>
+    <nome_eng>year</nome_eng>
+    <simbolo>y</simbolo>
+    <base>false</base>
+    <to>x / (365 * 24 * 3600)</to>
+    <from>x * 365 * 24 * 2600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>millisecondo</nome_it>
+    <nome_eng>millisecond</nome_eng>
+    <simbolo>ms</simbolo>
+    <base>false</base>
+    <to>x * 1000</to>
+    <from>x * 0.001</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>settimana</nome_it>
+    <nome_eng>week</nome_eng>
+    <simbolo>w</simbolo>
+    <base>false</base>
+    <to>x / (7 * 24 * 3600)</to>
+    <from>x * 7 * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>2 settimane</nome_it>
+    <nome_eng>fortnight</nome_eng>
+    <simbolo>f</simbolo>
+    <base>false</base>
+    <to>x / (2 * 7 * 24 * 3600)</to>
+    <from>x * 2 * 7 * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>anno bisestile</nome_it>
+    <nome_eng>leap year</nome_eng>
+    <simbolo>ly</simbolo>
+    <base>false</base>
+    <to>x / (366 * 24 * 3600)</to>
+    <from>x * 366 * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>anno tropicale</nome_it>
+    <nome_eng>tropical year</nome_eng>
+    <simbolo>ty</simbolo>
+    <base>false</base>
+    <to>x / (365.24219 * 24 * 3600)</to>
+    <from>x * 365.24219 * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>anno Gregoriano</nome_it>
+    <nome_eng>Gregorian year</nome_eng>
+    <simbolo>ty</simbolo>
+    <base>false</base>
+    <to>x / (365.2425 * 24 * 3600)</to>
+    <from>x * 365.2425 * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Olimpiadi</nome_it>
+    <nome_eng>Olympiad</nome_eng>
+    <simbolo>ol</simbolo>
+    <base>false</base>
+    <to>x / (((3 * 365) + 366) * 24 * 3600)</to>
+    <from>x * ((3 * 365) + 366) * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>lustro</nome_it>
+    <nome_eng>lustrum</nome_eng>
+    <simbolo>l</simbolo>
+    <base>false</base>
+    <to>x / (365.2425 * 24 * 3600)</to>
+    <from>x * 365.2425 * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>decade</nome_it>
+    <nome_eng>decade</nome_eng>
+    <simbolo>dc</simbolo>
+    <base>false</base>
+    <to>x / (((2 * 366 ) + (8 * 365)) * 24 * 3600)</to>
+    <from>x * ((2 * 366 ) + (8 * 365)) * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+  	<nome_it>giubileo</nome_it>
+    <nome_eng>jubilee</nome_eng>
+    <simbolo>j</simbolo>
+    <base>false</base>
+    <to>x / (((12 * 366 ) + (38 * 365)) * 24 * 3600)</to>
+    <from>x * ((12 * 366 ) + (38 * 365)) * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+  	<nome_it>secolo</nome_it>
+    <nome_eng>century</nome_eng>
+    <simbolo>c</simbolo>
+    <base>false</base>
+    <to>x / (((25 * 366 ) + (75 * 365)) * 24 * 3600)</to>
+    <from>x * ((25 * 366 ) + (75 * 365)) * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+  	<nome_it>millennio</nome_it>
+    <nome_eng>millennium</nome_eng>
+    <simbolo>ml</simbolo>
+    <base>false</base>
+    <to>x / (((250 * 366 ) + (750 * 365)) * 24 * 3600)</to>
+    <from>x * ((250 * 366 ) + (750 * 365)) * 24 * 3600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

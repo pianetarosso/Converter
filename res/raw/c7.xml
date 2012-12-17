@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Area -->
+<gruppo id="7" versione="1.0">
+  <unita>
+    <nome_it>metri quadrati</nome_it>
+    <nome_eng>square meter</nome_eng>
+    <simbolo>m2</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>chilometri quadrati</nome_it>
+    <nome_eng>square kilometre</nome_eng>
+    <simbolo>km2</simbolo>
+    <base>false</base>
+    <to>x * 10^(-6)</to>
+    <from>x * 10^6</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>centimetri quadrati</nome_it>
+    <nome_eng>square centimetre</nome_eng>
+    <simbolo>cm2</simbolo>
+    <base>false</base>
+    <to>x * 10^4</to>
+    <from>x * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>millimetri quadrati</nome_it>
+    <nome_eng>square millimetres</nome_eng>
+    <simbolo>mm2</simbolo>
+    <base>false</base>
+    <to>x * 10^6</to>
+    <from>x * 10^(-6)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>iarda quadrata</nome_it>
+    <nome_eng>square yard</nome_eng>
+    <simbolo>yd2</simbolo>
+    <base>false</base>
+    <to>x / 0.83612736</to>
+    <from>x * 0.83612736</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pollice quadrato</nome_it>
+    <nome_eng>square inch</nome_eng>
+    <simbolo>in2</simbolo>
+    <base>false</base>
+    <to>x / 6.4516 * 10^4</to>
+    <from>x * 6.4516 * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>piede quadrato</nome_it>
+    <nome_eng>square foot</nome_eng>
+    <simbolo>ft2</simbolo>
+    <base>false</base>
+    <to>x / 0.09290304</to>
+    <from>x * 0.09290304</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglio quadrato</nome_it>
+    <nome_eng>square mile</nome_eng>
+    <simbolo>mi2</simbolo>
+    <base>false</base>
+    <to>x / 2.589988110336 * 10^(-6)</to>
+    <from>x * 2.589988110336 * 10^6</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>ara</nome_it>
+    <nome_eng>are</nome_eng>
+    <simbolo>are</simbolo>
+    <base>false</base>
+    <to>x / 100</to>
+    <from>x * 100</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>ettaro</nome_it>
+    <nome_eng>hectare</nome_eng>
+    <simbolo>hectare</simbolo>
+    <base>false</base>
+    <to>x * 10^(-4)</to>
+    <from>x * 10^4</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>acro</nome_it>
+    <nome_eng>acre</nome_eng>
+    <simbolo>acre</simbolo>
+    <base>false</base>
+    <to>x / (43.560 * 0.09290304)</to>
+    <from>x * 43.560 * 0.09290304</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>barn</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>barn</simbolo>
+    <base>false</base>
+    <to>x * 10^28</to>
+    <from>x * 10^(-28)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

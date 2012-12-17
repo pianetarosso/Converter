@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Angoli -->
+<gruppo id="8" versione="1.0">
+  <unita>
+    <nome_it>ciclo</nome_it>
+    <nome_eng>turn</nome_eng>
+    <simbolo>turn</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>radianti</nome_it>
+    <nome_eng>radian</nome_eng>
+    <simbolo>rad</simbolo>
+    <base>false</base>
+    <to>x * (2 * pi)</to>
+    <from>x / (2 * pi)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>gradi</nome_it>
+    <nome_eng>degrees</nome_eng>
+    <simbolo>°</simbolo>
+    <base>false</base>
+    <to>x * 360</to>
+    <from>x / 360</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>quadrante</nome_it>
+    <nome_eng>quadrant</nome_eng>
+    <simbolo>quad</simbolo>
+    <base>false</base>
+    <to>x * 4</to>
+    <from>x / 4</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>grad</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>grad</simbolo>
+    <base>false</base>
+    <to>x * 400</to>
+    <from>x / 400</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>minuto d'arco</nome_it>
+    <nome_eng>minute of arc</nome_eng>
+    <simbolo>'</simbolo>
+    <base>false</base>
+    <to>x * 21600</to>
+    <from>x / 21600</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>secondo d'arco</nome_it>
+    <nome_eng>second of arc</nome_eng>
+    <simbolo>"</simbolo>
+    <base>false</base>
+    <to>x * (21600 * 60)</to>
+    <from>x / (21600 * 60)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Velocità -->
+<gruppo id="6" versione="1.0">
+  <unita>
+    <nome_it>metro al secondo</nome_it>
+    <nome_eng>meters per second</nome_eng>
+    <simbolo>m/s</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>chilometri all'ora</nome_it>
+    <nome_eng>kilometres per hour</nome_eng>
+    <simbolo>km/h</simbolo>
+    <base>false</base>
+    <to>x * 3.6</to>
+    <from>x / 3.6</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglia all'ora</nome_it>
+    <nome_eng>miles per hour</nome_eng>
+    <simbolo>mph</simbolo>
+    <base>false</base>
+    <to>x / 0.44704</to>
+    <from>x * 0.44704</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>miglia nautiche all'ora</nome_it>
+    <nome_eng>knots</nome_eng>
+    <simbolo>kn</simbolo>
+    <base>false</base>
+    <to>x / 0.514444</to>
+    <from>x * 0.514444</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>piedi al secondo</nome_it>
+    <nome_eng>feet per second</nome_eng>
+    <simbolo>fps</simbolo>
+    <base>false</base>
+    <to>x / 0.3048</to>
+    <from>x * 0.3048</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

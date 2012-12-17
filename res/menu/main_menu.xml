@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/editor_misure" android:title="@string/edit_misure" android:enabled="true" android:orderInCategory="1"></item>
+    <item android:id="@+id/send_m" android:title="@string/send_your_measures" android:enabled="true" android:orderInCategory="3"></item>
+    <item android:id="@+id/preferenze" android:title="@string/preferenze" android:orderInCategory="2"></item>
+    
+
+</menu>

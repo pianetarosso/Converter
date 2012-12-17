@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Peso -->
+<gruppo id="2" versione="1.0">
+  <unita>
+    <nome_it>chilogrammo</nome_it>
+    <nome_eng>kilogram</nome_eng>
+    <simbolo>kg</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>carato</nome_it>
+    <nome_eng>carat</nome_eng>
+    <simbolo>carat</simbolo>
+    <base>false</base>
+    <to>x / 2 * 10^4</to>
+    <from>x * 2 * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>grano</nome_it>
+    <nome_eng>grain</nome_eng>
+    <simbolo>gr</simbolo>
+    <base>false</base>
+    <to>x / 64.79891 * 10^6</to>
+    <from>x * 64.79891 * 10^(-6)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>oncia (avoirdupois)</nome_it>
+    <nome_eng>ounce (avoirdupois)</nome_eng>
+    <simbolo>oz</simbolo>
+    <base>false</base>
+    <to>x / 28.3495231 * 10^3</to>
+    <from>x * 28.3495231 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>oncia (troy)</nome_it>
+    <nome_eng>ounce (troy)</nome_eng>
+    <simbolo>oz</simbolo>
+    <base>false</base>
+    <to>x / 31.1034768 * 10^3</to>
+    <from>x * 31.1034768 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>pennyweight</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>dwt</simbolo>
+    <base>false</base>
+    <to>x / 1.55517384 * 10^3</to>
+    <from>x * 1.55517384 * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>libbra (avoirdupois)</nome_it>
+    <nome_eng>pound (avoirdupois)</nome_eng>
+    <simbolo>lb</simbolo>
+    <base>true</base>
+    <to>x * 22 / 10</to>
+    <from>x * 10 / 22</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>libbra (troy)</nome_it>
+    <nome_eng>pound (troy)</nome_eng>
+    <simbolo>lb</simbolo>
+    <base>false</base>
+    <to>x * 8 / 3</to>
+    <from>x * 3 / 8</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>tonnellata</nome_it>
+    <nome_eng>ton</nome_eng>
+    <simbolo>t</simbolo>
+    <base>false</base>
+    <to>x / 10^(-3)</to>
+    <from>x * 10^3</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>microgrammo</nome_it>
+    <nome_eng>microgram</nome_eng>
+    <simbolo>µg</simbolo>
+    <base>false</base>
+    <to>x * 10^9</to>
+    <from>x * 10^(-9)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>milligrammo</nome_it>
+    <nome_eng>milligram</nome_eng>
+    <simbolo>mg</simbolo>
+    <base>false</base>
+    <to>x * 10^6</to>
+    <from>x * 10^(-6)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>centigrammo</nome_it>
+    <nome_eng>centigram</nome_eng>
+    <simbolo>cg</simbolo>
+    <base>false</base>
+    <to>x * 10^5</to>
+    <from>x * 10^(-5)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>decigrammo</nome_it>
+    <nome_eng>decigram</nome_eng>
+    <simbolo>dg</simbolo>
+    <base>false</base>
+    <to>x * 10^4</to>
+    <from>x * 10^(-4)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>grammo</nome_it>
+    <nome_eng>gram</nome_eng>
+    <simbolo>g</simbolo>
+    <base>false</base>
+    <to>x * 10^3</to>
+    <from>x * 10^(-3)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>decagrammo</nome_it>
+    <nome_eng>decagram</nome_eng>
+    <simbolo>dag</simbolo>
+    <base>false</base>
+    <to>x * 10^2</to>
+    <from>x * 10^(-2)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>ettogrammo</nome_it>
+    <nome_eng>hectogram</nome_eng>
+    <simbolo>hg</simbolo>
+    <base>false</base>
+    <to>x * 10</to>
+    <from>x / 10</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>quintale</nome_it>
+    <nome_eng>hundredweight</nome_eng>
+    <simbolo>h-kg</simbolo>
+    <base>false</base>
+    <to>x * 10^(-2)</to>
+    <from>x * 10^2</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>quintale lungo (112 lb)</nome_it>
+    <nome_eng>long hundredweight (112 lb)</nome_eng>
+    <simbolo>cwt</simbolo>
+    <base>false</base>
+    <to>x / 50.802345</to>
+    <from>x * 50.802345</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>quintale corto (100 lb)</nome_it>
+    <nome_eng>short hundredweight</nome_eng>
+    <simbolo>cwt</simbolo>
+    <base>false</base>
+    <to>x / 45.359237</to>
+    <from>x * 45.359237</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>tonnellata lunga</nome_it>
+    <nome_eng>long ton</nome_eng>
+    <simbolo>t</simbolo>
+    <base>false</base>
+    <to>x / 0.914402</to>
+    <from>x * 1016.047</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>tonnellata corta</nome_it>
+    <nome_eng>short ton</nome_eng>
+    <simbolo>t</simbolo>
+    <base>false</base>
+    <to>x / 907.1847</to>
+    <from>x * 907.1847</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>

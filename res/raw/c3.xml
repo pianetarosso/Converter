@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!-- Temperatura -->
+<gruppo id="3" versione="1.0">
+  <unita>
+    <nome_it>Celsius</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°C</simbolo>
+    <base>true</base>
+    <to>x</to>
+    <from>x</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Delisle</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°De</simbolo>
+    <base>false</base>
+    <to>(100 - x) * 3 / 2</to>
+    <from>100 - x * 3 / 2</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Fahrenheit</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°F</simbolo>
+    <base>false</base>
+    <to>(9 / 5 * x) + 32</to>
+    <from>(5 / 9) * (x - 32)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Kelvin</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°K</simbolo>
+    <base>false</base>
+    <to>x + 273.15</to>
+    <from>x - 273.15</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Newton</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°N</simbolo>
+    <base>false</base>
+    <to>x * (33 / 100)</to>
+    <from>x * (100 / 33)</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Rankine</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°R</simbolo>
+    <base>false</base>
+    <to>(x * 1.8) + 32 + 459.67</to>
+    <from>(x - 32 - 459.67) / 1.8</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Réaumur</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°r</simbolo>
+    <base>false</base>
+    <to>x * 0.8</to>
+    <from>x * 1.25</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+  <unita>
+    <nome_it>Rømer</nome_it>
+    <nome_eng></nome_eng>
+    <simbolo>°Rø</simbolo>
+    <base>false</base>
+    <to>(x - 7.5) * 40 / 21</to>
+    <from>x * 21 / 40 + 7.5</from>
+    <personale>false</personale>
+    <visibile>true</visibile>
+  </unita>
+</gruppo>
